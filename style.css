@@ -89,8 +89,8 @@ nav li a:hover::before{
     left:0;
 }
 
-.filters-search{
-    
+i.fa-search{
+    display: none;
 }
 
 
@@ -603,16 +603,13 @@ footer{
         width: 100%;
     }
 
+    i.fa-search{
+        display: block;
+    }
+
     .searchbtn::before {
-        font-family: "Font Awesome 5 Free"; 
-        font-weight: 400; 
-        content: "\f004";
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
+        display: none;
       }
-  
 
     .filters{
         flex-direction: column;
